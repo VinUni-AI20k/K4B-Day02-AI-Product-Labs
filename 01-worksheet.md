@@ -4,12 +4,14 @@
 
 ## Nguyên tắc
 
-1. **Problem first, not AI first.** Đừng bắt đầu bằng chatbot/agent. Bắt đầu bằng actor, workflow, bottleneck, metric.
-2. **Cá nhân scan rộng, nhóm hội tụ.** Mỗi người chuẩn bị nhiều candidate problems; nhóm chọn một candidate đáng đào sâu.
-3. **Vẽ workflow trước khi chọn AI.** Nếu chưa thấy bước nào nghẽn, chưa được chọn Rule / Workflow / Agent.
-4. **Không cần AI vẫn là kết luận tốt.** Điểm nằm ở chất lượng lập luận, không nằm ở độ "ngầu" của solution.
-5. **AI hỗ trợ, không thay quyết định.** Dùng AI để hỏi ngược, phản biện, vẽ lại, research. Người học tự kiểm và tự chốt.
-6. **Tự làm trước, AI sau.** Những phần thể hiện suy nghĩ cá nhân như pitch, challenge và reflection không được để AI viết thay.
+6 nguyên tắc dưới đây quyết định cách làm của cả lab. Đọc kỹ vì mỗi phase đều quay về 6 ý này.
+
+1. **Problem first, not AI first.** Đừng mở đầu bằng chatbot hay agent. Mở đầu bằng việc quan sát ai đang làm gì, workflow đi qua mấy bước, nghẽn ở bước nào, và đo bằng số nào.
+2. **Cá nhân scan rộng, nhóm hội tụ.** Mỗi người tự chuẩn bị nhiều candidate problems trước ở nhà. Tới nhóm mới gom lại và chọn một bài đáng đào sâu nhất.
+3. **Vẽ workflow trước khi chọn AI.** Chưa vẽ ra từng bước và bấm giờ thì chưa được bàn Rule, Workflow hay Agent. Nhìn thấy bottleneck rồi mới chọn tool.
+4. **Không cần AI vẫn là kết luận tốt.** Bài No-Go hoặc chỉ dùng Rule mà lập luận chặt vẫn được điểm cao. Điểm nằm ở chất lượng lập luận, không nằm ở solution có ngầu không.
+5. **AI hỗ trợ, không thay quyết định.** Dùng AI để hỏi ngược, phản biện, vẽ lại sơ đồ và tìm nguồn. Người học tự kiểm link, tự chốt số liệu và tự chịu trách nhiệm với quyết định của nhóm.
+6. **Tự làm trước, AI sau.** Các phần thể hiện suy nghĩ cá nhân như pitch, challenge bạn khác và reflection cuối giờ phải là lời của bạn. Không để AI viết thay rồi nộp.
 
 ## Repo nộp bài
 
@@ -37,9 +39,9 @@ Lưu ý: `02-group-problem-statement/` là **bản nộp nhóm**. Nhóm 3-4 ngư
 
 | Phần | Ai làm | Cần có gì |
 |---|---|---|
-| `01-individual-problem-scan/` | Cá nhân | 5+ problems, top 3 Problem Cards, draft workflow trước/sau cho top 3 |
-| `02-group-problem-statement/` | Nhóm | Nhật ký hội tụ, kiểm chứng nhanh, research giải pháp, workflow trước/sau, Problem Statement v0/v1, Rule / Workflow / Agent, quyết định cuối |
-| `03-individual-reflection/` | Cá nhân | Vai trò trong nhóm, cách dùng AI, học được gì, nếu làm lại sẽ đổi gì |
+| `01-individual-problem-scan/` | Cá nhân | Bảng scan ít nhất 5 problems từ việc thật. Top 3 Problem Cards đủ rõ để pitch 2 phút. Draft workflow trước và sau cho từng card trong top 3. |
+| `02-group-problem-statement/` | Nhóm | Nhật ký hội tụ từ 9-12 candidates về 1 bài. Kiểm chứng nhanh với người thật và research tool có sẵn. Workflow trước và sau có thời gian từng bước. Problem Statement v0 rồi v1. Bảng so Rule với Workflow với Agent. Quyết định Go, Not Yet hay No-Go kèm lý do. |
+| `03-individual-reflection/` | Cá nhân | Vai trò thật của mình trong nhóm. AI đã giúp và đã sai ở đâu. Điều học được sau lab. Nếu làm lại sẽ đổi gì. |
 
 ## Tiêu chí đánh giá nhanh
 
@@ -100,7 +102,7 @@ Mở `02-deliverable-example.md` để xem một bài hoàn chỉnh. Khi đọc,
 Self-check:
 
 - [ ] Tôi hiểu nhóm chỉ chọn **candidate problem**, không chọn ngay Problem Statement.
-- [ ] Tôi hiểu deep-dive gồm validation, research, workflow, metric, PS và AI decision.
+- [ ] Tôi hiểu deep-dive (đào sâu) gồm validation, research, workflow, metric, PS và AI decision.
 
 ---
 
@@ -108,7 +110,7 @@ Self-check:
 
 ## Mục tiêu
 
-Mỗi người scan rộng ít nhất 5 problems từ trải nghiệm thật. Đây là phần phân kỳ cá nhân.
+Mỗi người tự scan rộng ít nhất 5 problems từ trải nghiệm thật của mình. Đây là phần làm riêng, mỗi người nghĩ một hướng: cứ ghi ra càng nhiều càng tốt, chưa cần bàn đúng sai, chưa cần gom ý với ai. Sang Phase 3 cả nhóm mới gom lại và chọn 1 bài, nên phase này ai nghĩ được nhiều ý cụ thể thì nhóm càng có nhiều cái để chọn.
 
 Bonus:
 
@@ -118,7 +120,9 @@ Bonus:
 
 ## 4 lăng kính để scan
 
-Một problem có thể rơi vào nhiều lăng kính. Không cần phân loại hoàn hảo ở bước này. Dùng lăng kính để mở rộng quan sát, rồi bước sau mới filter.
+Lăng kính chỉ là góc nhìn để soi việc cho khỏi sót, không phải nhãn phân loại để chấm đúng sai. Bạn không cần xếp mỗi problem vào đúng một ô. Một problem soi bằng 2 lăng kính cùng lúc là bình thường, ví dụ vừa lặp lại hằng tuần vừa mỗi lần làm rất nặng thì càng đáng ghi.
+
+Dùng 4 câu hỏi này để tự soi tuần vừa rồi của mình:
 
 | Lăng kính | Câu hỏi gợi mở | Ví dụ |
 |---|---|---|
@@ -127,11 +131,11 @@ Một problem có thể rơi vào nhiều lăng kính. Không cần phân loại
 | **AI có thể tốt hơn** | Việc gì cần hiểu ngữ cảnh, đọc/viết ngôn ngữ, phân loại, so sánh, tổng hợp hoặc gợi ý đúng lúc?<br>Nếu AI chỉ hỗ trợ một bước trong workflow, bước nào đáng hỗ trợ nhất?<br>Nếu AI sai ở bước đó thì hậu quả là gì? | Search tài liệu, gợi ý next step, tóm tắt nhiều nguồn |
 | **Pain từ người khác** | Ai ngoài tôi đang bị kẹt hoặc phàn nàn lặp lại?<br>Họ thường nói câu gì, hỏi lại điều gì, hoặc bỏ sót bước nào?<br>Có dấu hiệu thật không: ticket, Slack/Discord, comment, survey, phản hồi trực tiếp? | Hỏi lại deadline, không hiểu task, support ticket lặp lại |
 
-Cách phân biệt nhanh:
+Cách phân biệt nhanh hai góc dễ nhầm nhất:
 
-- `Lặp lại` bắt đầu từ câu hỏi: việc này xảy ra bao nhiêu lần?
-- `Tốn thời gian` bắt đầu từ câu hỏi: mỗi lần làm tốn bao nhiêu công?
-- Một problem vừa lặp lại vừa tốn thời gian thì càng đáng đưa vào danh sách scan.
+- `Lặp lại` trả lời câu hỏi: việc này xảy ra bao nhiêu lần trong tuần. Ví dụ viết standup mỗi sáng, tổng hợp report mỗi thứ Hai.
+- `Tốn thời gian` trả lời câu hỏi: mỗi lần làm tốn bao nhiêu công và công đi đâu. Ví dụ đọc PRD 15 trang mất 45 phút vì phải hiểu context mới comment được.
+- Một problem vừa lặp lại vừa tốn thời gian thì càng đáng đưa vào danh sách scan. Cứ ghi cả hai vào cột lăng kính.
 
 Nếu bí, tự hỏi:
 
@@ -164,6 +168,16 @@ Nếu vẫn bí ý tưởng, đọc nhanh các gợi ý dưới đây rồi quay
 
 ## Bảng scan
 
+Điền mỗi dòng theo mạch: việc gì, ai chịu, đo bằng gì. Cột dấu hiệu thật bắt buộc có số: mất bao lâu, mấy lần/tuần, có log hay quote nào. Đừng ghi chung chung kiểu "mất nhiều thời gian".
+
+Ví dụ 1 dòng đạt yêu cầu:
+
+| # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
+|---|---|---|---|---|
+| VD | Lặp lại + Tốn thời gian | Mỗi sáng thứ Hai mở Jira, Sheets và Slack để gom số viết Weekly Report | Mình (người viết), EM/CEO (nhận trễ thì họp thiếu số) | Bấm giờ 3 tuần đều 80-90'/tuần, 2/4 tuần gửi trễ sau 10h |
+
+Bảng của bạn:
+
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
 |---|---|---|---|---|
 | 1 | | | | |
@@ -177,7 +191,7 @@ Nếu vẫn bí ý tưởng, đọc nhanh các gợi ý dưới đây rồi quay
 | 9 | | | | |
 | 10 | | | | |
 
-Gợi ý cho `Dấu hiệu thật`: mất bao lâu, xảy ra mấy lần/tuần, bao nhiêu người gặp, có log/ticket/review/comment không, nếu không sửa thì hậu quả là gì.
+Gợi ý cho `Dấu hiệu thật`: mất bao lâu (bấm giờ mấy lần), xảy ra mấy lần/tuần, bao nhiêu người gặp, có log/ticket/review/comment hoặc câu quote nào chứng minh, nếu không sửa thì hậu quả là gì (trễ deadline, họp thiếu số, khách phàn nàn).
 
 ## Nếu dùng AI ở phase này
 
@@ -216,17 +230,11 @@ Từ 5+ problems, mỗi người chọn top 3 để chuẩn bị share với nh�
 
 ## Chọn top 3
 
-Tiêu chí chọn:
+Lọc từ 5+ problems xuống 3 bài đáng pitch nhất. Giữ bài nào actor cụ thể, workflow vẽ được thành 3-7 bước, bottleneck nằm ở một bước duy nhất, và impact đo được bằng thời gian hoặc số lần. Loại bài quá rộng kiểu "cải thiện onboarding cho cả công ty".
 
-- Actor rõ.
-- Workflow hiện tại có thể vẽ được.
-- Bottleneck cụ thể.
-- Impact có thể đo hoặc ước lượng.
-- Có thể so sánh No AI / Rule / Workflow / Agent.
-- Không quá rộng cho một buổi lab.
-
-| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+| Rank | Problem | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
+| VD | Weekly Report | Workflow 7 bước vẽ được ngay, đã bấm giờ 3 tuần, bottleneck gọn ở bước viết | Chưa biết chấm narrative "đủ tốt" bằng gì |
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
@@ -253,7 +261,7 @@ Nếu cần một bản nhìn nhanh để pitch với nhóm, dùng dạng card n
 │ Đo thành công bằng gì? ___________________   │
 │ Ví dụ: giảm 90 phút → dưới 30 phút           │
 │                                              │
-│ Quick gut: □ No AI □ Rule □ Workflow         │
+│ Quick gut (linh cảm nhanh): □ No AI □ Rule □ Workflow │
 │            □ Agent □ Chưa biết               │
 └──────────────────────────────────────────────┘
 ```
@@ -261,11 +269,11 @@ Nếu cần một bản nhìn nhanh để pitch với nhóm, dùng dạng card n
 Phần nộp chi tiết vẫn dùng template bên dưới để không thiếu field.
 
 ```text
-Problem 1 câu:
+Problem 1 câu (ai + mất bao lâu + nghẽn ở đâu + hậu quả):
 
-Actor:
+Actor (người trong cuộc: ai làm, ai nhận, deadline nào):
 
-Thời điểm / bối cảnh:
+Thời điểm / bối cảnh (khi nào, khung giờ nào, tần suất):
 
 Current workflow 3-7 bước:
 1.
@@ -274,17 +282,17 @@ Current workflow 3-7 bước:
 4.
 5.
 
-Bottleneck:
+Bottleneck (bước nghẽn nhất: bước mấy, mất bao nhiêu phút, vì sao kẹt):
 
-Impact:
+Impact (mất bao nhiêu phút/tuần, trễ thì ai bị ảnh hưởng):
 
-Success metric:
+Success metric (từ bao nhiêu xuống bao nhiêu, đếm bằng gì):
 
-Non-AI alternative:
+Non-AI alternative (cách giải không cần AI: template/checklist/dashboard làm được tới đâu):
 
-AI hypothesis:
+AI hypothesis (dự đoán AI giúp được gì: AI vào sau bước nào, trước bước nào, ai kiểm tra):
 
-Quick gut:
+Quick gut (linh cảm nhanh, khoanh 1 ô):
 [ ] No AI / process fix
 [ ] Rule
 [ ] Workflow
@@ -314,10 +322,11 @@ FUTURE STATE — 21 phút
 [Auto-pull: 2']
 → [AI cấu trúc dữ liệu: 1']
 → [AI draft narrative: 1']
-→ [PM review + edit: 15']  <-- human boundary
+→ [PM review + edit: 15']  <-- human boundary, người kiểm tra số trước khi gửi
 → [PM gửi: 2']
 
-Fallback: AI draft tệ → PM tự viết lại
+Fallback: nếu AI bịa số, trích sai nguồn hoặc viết nhạt tới mức phải sửa hơn 70%
+thì bỏ draft và viết tay như workflow cũ, mất thêm ~25'. Lỗi số liệu thì dừng dùng AI cho report đó.
 ```
 
 Nếu nộp file riêng, đặt tên như:
@@ -328,22 +337,26 @@ Nếu nộp file riêng, đặt tên như:
 
 ## Chọn card muốn pitch nhất
 
-Card tôi muốn pitch nhất:
+Điền 3 ô dưới đây để mai vào nhóm pitch trong 2 phút. Đừng bỏ trống hoặc ghi 3 từ.
+
+Card tôi muốn pitch nhất (ghi tên 1 bài trong top 3):
 
 ```text
-
+VD: Weekly Report của Minh.
 ```
 
-Vì sao:
+Vì sao (viết 2-3 câu: workflow gì, số đo gì, impact gì):
 
 ```text
-
+VD: Workflow 7 bước tôi đã bấm giờ 3 tuần. Bottleneck gọn ở bước viết 25 phút.
+Cả team 3 PM mất 4 tiếng/tuần nên impact rõ.
 ```
 
-Câu hỏi tôi muốn nhóm challenge:
+Câu hỏi tôi muốn nhóm challenge (ghi 1-2 câu hỏi đúng chỗ yếu của mình):
 
 ```text
-
+VD: Workflow này có phải việc thật hay tôi tưởng tượng ra. Metric dưới 30 phút có đo được không.
+Scope này có to quá cho 1 buổi lab không.
 ```
 
 ## Nếu dùng AI ở phase này
@@ -354,7 +367,7 @@ Prompt phản biện:
 Đây là Problem Card của tôi:
 [dán card]
 
-Hãy đóng vai skeptical product manager và phản biện:
+Hãy đóng vai skeptical product manager (một PM khó tính) và phản biện:
 1. Actor có đủ cụ thể không?
 2. Workflow có thật không?
 3. Bottleneck có rõ chưa?
@@ -415,63 +428,69 @@ Mỗi người trình bày 3 candidates, mỗi candidate 1-2 phút:
 
 ## Bước 3.2 — Gom trùng / cluster
 
+Đừng để 12 ý rời rạc. Gom các bài na ná nhau thành 3-4 cụm để thấy pattern. Ví dụ các bài weekly report, meeting recap và lab summary đều chung pattern là gom nhiều nguồn rồi viết lại cho người khác đọc.
+
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
+| VD Báo cáo/tổng hợp | Weekly Report, meeting recap | Gom nhiều nguồn rồi viết lại cho người khác ra quyết định | Cụm này workflow rõ nhất |
 | A | | | |
 | B | | | |
 | C | | | |
-| D | | | |
 
 ## Bước 3.3 — Shortlist
 
-Hỏi:
+Giữ lại 2-3 bài trả lời được cả 7 câu này. Bài nào vướng một câu thì ghi vào cột rủi ro để cả nhóm thấy.
 
-- Có ai trong nhóm hiểu workflow thật đủ sâu không?
-- Actor có cụ thể không?
-- Bottleneck có phải một bước cụ thể không?
-- Impact có thể đo không?
-- Có thể vẽ before/after workflow không?
-- Có thể so sánh Rule / Workflow / Agent không?
-- Có quá rộng cho lab hôm nay không?
+- Có ai trong nhóm hiểu workflow thật đủ sâu để kể lại từng bước không, hay chỉ nghe kể?
+- Actor có phải một người cụ thể với tên và bối cảnh không?
+- Bottleneck có nằm ở một bước duy nhất không, hay đau lan man cả quy trình?
+- Impact có đo được bằng phút, số lần hay số lỗi không?
+- Có vẽ được workflow trước và sau trong 10 phút không?
+- Có so được Rule với Workflow với Agent trên cùng bài này không?
+- Có làm kịp trong buổi lab hôm nay không, hay cần cả tuần?
 
-| Candidate | Vì sao vào shortlist | Rủi ro / điều chưa rõ |
+| Candidate | Vì sao vào shortlist (2-3 ý) | Rủi ro / điều chưa rõ |
 |---|---|---|
-| | | |
+| VD Weekly Report | Đã bấm giờ 3 tuần, workflow 7 bước rõ | Baseline mới là số của 1 người, cần hỏi thêm |
 | | | |
 | | | |
 
 ## Bước 3.4 — Score để đồng thuận
 
-Chấm 1-5. Điểm không cần tuyệt đối; mục tiêu là ép nhóm nói rõ lý do.
+Chấm 1-5 cho từng tiêu chí. Điểm không cần tuyệt đối, chấm để ép nhóm nói rõ lý do vì sao cho 5 và vì sao cho 3. Bài nào nhiều điểm 3 ở cột làm trong lab và nhóm hiểu domain thì nên loại dù total cao.
 
 | Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
+| VD Weekly Report | 5 | 5 | 4 | 5 | 5 | 5 | 5 | 34 |
 | | | | | | | | | |
 | | | | | | | | | |
 
 Candidate nhóm chọn:
 
 ```text
-
+Ghi 1 candidate duy nhất, ví dụ: Weekly Report của Minh.
 ```
 
-Vì sao chọn:
+Vì sao chọn (viết 4-5 câu, đừng ghi 5 từ):
 
 ```text
-
+Ví dụ: workflow 7 bước đã bấm giờ nên cả nhóm hiểu ngay. Baseline rõ nên đặt target dễ.
+Hỏi được 2-3 PM khác ngay trong giờ lab. Đã thấy tool làm dashboard nên research nhanh.
+Vẽ before/after rõ: máy lấy số, AI viết nháp, người review.
 ```
 
-Vì sao không chọn các candidate còn lại:
+Vì sao không chọn các candidate còn lại (mỗi bài 2-3 câu):
 
 ```text
-
+Ví dụ Slack Search: impact rộng nhưng cần quyền đọc private channel, scope dễ phình.
+Review PRD: workflow rõ nhưng cãi nhau thế nào là comment tốt, không chốt kịp trong lab.
 ```
 
 Nếu có disagreement, nhóm xử lý thế nào:
 
 ```text
-
+Ghi ai lo gì và nhóm chốt ra sao. Ví dụ: Lan lo baseline là số của 1 người nên nhóm
+thống nhất đi hỏi thêm 2 PM trước khi viết Statement.
 ```
 
 ---
@@ -501,20 +520,21 @@ Hỏi 2-3 người:
 - Bạn mất khoảng bao lâu?
 - Nếu tốt hơn, bạn muốn điều gì thay đổi?
 
-### Option B — Micro survey / Discord poll
+### Option B — Micro survey / Discord poll (bình chọn nhanh)
 
 Hỏi 5-10 người:
 
 - Bạn có gặp vấn đề này không?
 - Tần suất?
 - Bước nào đau nhất?
-- Hiện bạn workaround thế nào?
+- Hiện bạn workaround (xoay sở tạm) thế nào?
 - Mức độ đáng giải quyết: 1-5?
 
-Kết quả:
+Kết quả (ghi cả quote nguyên văn, đừng chỉ ghi "đa số đồng ý"):
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
+| VD Interview 3 PM | 3 | 2/3 vẫn viết tay, đau nhất ở đoạn viết narrative. Quote: "lấy số 10 phút xong, viết cho sếp hiểu mới mất cả buổi" | 1 bạn chỉ cần dashboard là đủ họp | Thu hẹp từ "tự động report" về "draft narrative từ data có sẵn" |
 | Interview | | | | |
 | Survey / poll | | | | |
 | Log / review / ticket | | | | |
@@ -556,55 +576,45 @@ Không dùng số liệu AI đưa ra nếu không verify được.
 
 ## Bước 5.1 — Current workflow bản nhóm
 
-Vẽ workflow hiện tại kỹ hơn bản cá nhân. Mỗi bước nên có:
+Vẽ workflow hiện tại kỹ hơn bản cá nhân. Mỗi bước ghi đủ 6 ý: ai làm, đầu vào là gì, đầu ra là gì, mất bao lâu và lặp lại khi nào, bàn giao cho ai, và bước nào là nghẽn nhất. Thiếu thời gian và handoff là lỗi phổ biến nhất.
 
-- actor,
-- input,
-- output,
-- thời gian/tần suất,
-- handoff,
-- bottleneck.
-
-Dán workflow hoặc link file:
+Dán workflow hoặc link file (ảnh, Mermaid, Excalidraw đều được, miễn đọc được):
 
 ```text
-
+VD: [1 Export Jira 10' - Minh] → [2 Lấy Sheets 10'] → [3 Đọc Slack 15'] → [4 Tổng hợp 15'] → [5 Viết narrative 25' - bottleneck] → [6 Review 10'] → [7 Gửi 5']
 ```
 
 | Bước | Actor | Input | Output | Thời gian/tần suất | Ghi chú |
 |---|---|---|---|---|---|
+| VD 5 Viết narrative | Minh | Doc thô đã gom 3 nguồn | Đoạn narrative 5-7 câu | 25'/tuần, sáng thứ Hai | Bottleneck, hay kẹt câu đầu |
 | 1 | | | | | |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
 
-Bottleneck chính:
+Bottleneck chính (viết 2-3 câu, đừng ghi 3 từ):
 
 ```text
-
+VD: Bước 5 viết narrative mất 25 phút vì phải biến số thô thành insight và next action.
+Đây là bước duy nhất không copy-paste được.
 ```
 
 ## Bước 5.2 — Future workflow bản nhóm
 
-Vẽ workflow sau tối ưu. Cần thể hiện:
-
-- bước nào Rule xử lý,
-- bước nào AI/Workflow hỗ trợ,
-- bước nào con người vẫn làm,
-- boundary ở đâu,
-- phương án quay về nếu AI sai.
+Vẽ workflow sau tối ưu. Trên sơ đồ phải nhìn ra ngay 5 thứ: bước nào máy làm bằng Rule, bước nào AI hỗ trợ, bước nào người vẫn làm, ranh giới AI dừng ở đâu, và nếu AI sai thì quay về đường nào.
 
 Dán workflow hoặc link file:
 
 ```text
-
+VD: [1 Auto-pull 2' - máy] → [2 AI cấu trúc 1'] → [3 AI draft 1'] → [4 Minh review 15' - boundary] → [5 Minh gửi 2']. Fallback: draft tệ thì bỏ, viết tay như cũ.
 ```
 
-Before/after impact:
+Before/after impact (nhớ ghi cách đo ở cột cuối):
 
-| Metric | Trước | Sau kỳ vọng | Ghi chú |
+| Metric | Trước | Sau kỳ vọng | Ghi chú và cách đo |
 |---|---:|---:|---|
+| VD Tổng thời gian | 90 phút | Dưới 30 phút | Bấm giờ 4 tuần liên tiếp |
 | Số bước | | | |
 | Tổng thời gian | | | |
 | Số bước thủ công | | | |
@@ -613,14 +623,16 @@ Before/after impact:
 
 ## Bước 5.3 — Problem Statement v0
 
-| Field | Nội dung |
-|---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** | |
+Viết đủ 6 field, mỗi field 2-3 câu. Lỗi phổ biến là metric chỉ ghi "nhanh hơn" mà không có số và cách đếm, boundary chỉ ghi "không bịa" mà không liệt kê không được làm gì.
+
+| Field | Nội dung | Ví dụ đạt |
+|---|---|---|
+| **Actor** | | Minh, Junior PM gửi report cho EM/CEO trước 10h thứ Hai |
+| **Workflow** | | Sáng thứ Hai export Jira, lấy Sheets, đọc Slack, tổng hợp, viết, review, gửi |
+| **Bottleneck** | | Bước viết mất 25' vì phải biến số thô thành insight |
+| **Impact** | | 90'/tuần, trễ 2/4 tuần khiến họp thiếu số |
+| **Success Metric** | | Từ 90' xuống dưới 30', đếm câu hỏi lại giữ 1-2 câu/tuần |
+| **Boundary** | | AI chỉ draft từ 3 nguồn cho sẵn, không tự gửi, không bịa số |
 
 Prompt phản biện PS:
 
@@ -670,30 +682,35 @@ Tự kiểm nhanh:
 Bài toán của nhóm nằm ở ô nào?
 
 ```text
-
+VD: Mơ hồ cao + phức tạp thấp. Narrative mỗi lần viết khác nhau đều chấp nhận được,
+nhưng workflow chỉ đi thẳng 7 bước nên không cần Agent.
 ```
 
-Vì sao?
+Vì sao? (viết 2-3 câu, đừng ghi 3 từ):
 
 ```text
-
+VD: Output khác nhau mỗi lần vẫn OK nên là mơ hồ cao. Input chỉ 3 nguồn và đi một đường
+nên phức tạp thấp. Vì vậy Workflow có AI hỗ trợ một bước là đủ.
 ```
 
 ## Bước 6.1 — So sánh Rule / Workflow / Agent
 
+So trên cùng một bài, đừng so chung chung. Cột phương án phải ghi cụ thể cho bài của nhóm.
+
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? |
 |---|---|---|---|---|
+| VD **Rule** | Template + script kéo Jira/Sheets | Đủ cho report chỉ cần số | Không viết được narrative khác nhau mỗi tuần | Dùng cho bước lấy số |
 | **Rule** | | | | |
 | **Workflow** | | | | |
 | **Agent** | | | | |
 
-Hỏi kỹ:
+Hỏi kỹ trước khi chốt (trả lời bằng câu đầy đủ, đừng tick cho xong):
 
-- Rule có giải được 70-80% case không?
-- Workflow có đủ vì các bước khá rõ không?
-- Có thật sự cần Agent tự lập kế hoạch/gọi công cụ/đổi bước tiếp theo không?
-- Nếu AI sai, ai phát hiện và sửa?
-- Có thể hạ mức từ Agent về Workflow hoặc từ Workflow về Rule không?
+- Rule có giải được 70-80% case không, hay chỉ giải được phần vỏ?
+- Các bước có đủ rõ để đi thẳng một đường không, hay phải rẽ nhánh?
+- Có thật sự cần Agent tự lập kế hoạch và tự gọi tool không?
+- Nếu AI sai thì ai phát hiện ra đầu tiên và sửa trong bao lâu?
+- Có hạ được từ Agent về Workflow hoặc từ Workflow về Rule không?
 
 Mức chọn:
 
@@ -701,85 +718,94 @@ Mức chọn:
 [Rule / Workflow / Agent]
 ```
 
-Vì sao chọn:
+Vì sao chọn (viết 3-4 câu):
 
 ```text
-
+VD: Phần lấy số thì script là đủ. Phần viết cần AI hỗ trợ ngôn ngữ. Minh vẫn review 15'
+nên rủi ro kiểm soát được. Workflow đi thẳng nên chưa cần Agent.
 ```
 
-Vì sao không chọn mức đơn giản hơn:
+Vì sao không chọn mức đơn giản hơn (viết 2-3 câu):
 
 ```text
-
+VD: Chỉ dùng template thì report đều tay nhưng không viết được câu chuyện khác nhau
+mỗi tuần. Tuần có incident mà viết như tuần bình thường thì EM không hiểu.
 ```
 
 ## Bước 6.2 — Problem Statement v1
 
-| Field | Nội dung |
-|---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | Rule / Workflow / Agent |
-| **Rủi ro & người thật kiểm tra** | |
+Bản v1 là bản v0 cộng thêm 3 field cuối. Đừng copy nguyên v0 sang, hãy sửa lại cho chặt hơn sau khi đã chốt mức AI.
+
+| Field | Nội dung | Gợi ý viết |
+|---|---|---|
+| **Actor** | | Ghi tên vai trò và deadline cụ thể |
+| **Workflow** | | Ghi 5-7 bước kèm thời gian |
+| **Bottleneck** | | Ghi 1 bước duy nhất và vì sao kẹt |
+| **Impact** | | Ghi số phút/tuần và hậu quả trễ |
+| **Success Metric** | | Ghi số trước, số sau và cách đếm |
+| **Boundary** | | Liệt kê làm và không làm thành 2 vế |
+| **AI intervention point** (điểm AI can thiệp) | | Ghi can thiệp sau bước nào, trước bước nào |
+| **Mức chọn** | Rule / Workflow / Agent | Ghi 1 mức và 1 câu vì sao |
+| **Rủi ro & người thật kiểm tra** | | Ghi rủi ro lớn nhất và ai kiểm tra bằng cách nào |
 
 ## Bước 6.3 — Final decision
 
-| Câu hỏi | Yes / Not Yet / No | Ghi chú |
-|---|---|---|
-| Actor và workflow đã rõ chưa? | | |
-| Baseline và success metric đã đo được chưa? | | |
-| Có data/input đủ dùng chưa? | | |
-| Nếu AI sai, hậu quả có chấp nhận được không? | | |
-| Có người review/owner vận hành không? | | |
-| Có cách non-AI đơn giản hơn không? | | |
+Tick 6 câu này trước khi chốt. Câu nào trả lời không được thì quyết định phải là Not Yet, đừng cố Go.
 
-Decision:
+| Câu hỏi | Yes / Not Yet / No | Ghi chú (viết câu đầy đủ) |
+|---|---|---|
+| Actor và workflow đã rõ chưa? | | VD: Rõ, workflow 7 bước đã bấm giờ |
+| Baseline và success metric đã đo được chưa? | | VD: Rồi, 90' xuống 30', đếm câu hỏi lại |
+| Có data/input đủ dùng chưa? | | VD: Đủ 3 nguồn Jira/Sheets/Slack |
+| Nếu AI sai, hậu quả có chấp nhận được không? | | VD: Được vì Minh review trước khi gửi |
+| Có người review/owner vận hành không? | | VD: Có, Minh chịu trách nhiệm gửi |
+| Có cách non-AI đơn giản hơn không? | | VD: Có template cho report đơn giản, AI chỉ cho report cần narrative |
+
+Decision (Go là làm tiếp pilot nhỏ. Not Yet là chưa vội, cần thêm dữ liệu. No-Go là dừng, dùng cách không AI):
 
 ```text
 [Go / Not Yet / No-Go]
 ```
 
-Lý do:
+Lý do (viết 3-4 câu dựa trên bằng chứng, đừng ghi "vì AI hay"):
 
 ```text
-
+VD: Problem đã validate với 3 PM, workflow và metric rõ, AI chỉ ôm 1 bước có người review
+nên nhóm Go pilot 2 tuần.
 ```
 
-Nếu Go, pilot nhỏ nhất là:
+Nếu Go, pilot nhỏ nhất là (ghi data nào, chạy tay ra sao, đo 3 số nào):
 
 ```text
-
+VD: Lấy data 2 tuần gần nhất, chạy bán thủ công bằng prompt chuẩn, mỗi tuần ghi tổng giờ,
+giờ sửa draft và số lỗi số liệu.
 ```
 
 Nếu Not Yet, cần validate gì trước:
 
 ```text
-
+VD: Hỏi thêm 2 PM ngoài team để chắc baseline, vì hiện mới là số của 1 người.
 ```
 
 Nếu No-Go, nên làm gì thay AI:
 
 ```text
-
+VD: Dùng template và dashboard, vì report của team chỉ cần số là đủ họp.
 ```
 
 ---
 
 # Phase 7 — Individual Reflection (15')
 
-Reflection không chỉ là "tôi dùng AI thế nào". Bạn cần phản tư về vai trò của mình trong nhóm.
-
-Reflection là phần cá nhân. Không dùng AI để viết thay câu trả lời. Nếu dùng AI, chỉ dùng để gợi ý câu hỏi tự soi hoặc kiểm xem mình còn bỏ sót ý nào.
+Reflection kể vai trò thật của bạn trong nhóm: mình mang bài gì tới, mình hỏi được câu nào giúp nhóm loại bài yếu, mình vẽ hay research phần nào, và mình đổi ý lúc nào. Không dùng AI để viết thay. Nếu dùng AI thì chỉ dùng để gợi ý câu hỏi tự soi, còn câu trả lời phải là chuyện thật của bạn.
 
 ## Tôi đã tham gia vào phần nào?
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng |
+Đừng ghi chung chung kiểu "tham gia thảo luận". Ghi việc cụ thể và kết quả cụ thể.
+
+| Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng |
 |---|---|---|
+| VD Challenge | Hỏi nhóm lấy quyền Slack private channel kiểu gì | Nhóm hạ điểm Slack Search và loại bài đó |
 | Scan cá nhân | | |
 | Pitch Problem Card | | |
 | Challenge bài của bạn khác | | |
@@ -793,8 +819,11 @@ Reflection là phần cá nhân. Không dùng AI để viết thay câu trả l�
 
 ## Bảng dùng AI trong reflection
 
+Mỗi dòng ghi 1 phase bạn có dùng AI. Cột quan trọng nhất là 2 cột cuối: AI sai ở đâu và bạn sửa bằng ý mình ra sao. Bỏ trống 2 cột này là reflection chưa đạt.
+
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai/hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
+| VD Research | Nhờ tìm tool report có sẵn | Gợi ý đúng 4 tên | Bịa claim tiết kiệm 70% không nguồn | Bỏ số liệu, chỉ giữ link docs chính thức |
 | Scan | | | | |
 | Problem Card | | | | |
 | Workflow | | | | |
@@ -805,17 +834,20 @@ Reflection là phần cá nhân. Không dùng AI để viết thay câu trả l�
 
 ## Reflection câu hỏi mở
 
+Chọn 3-4 câu trong 6 câu dưới đây để viết thành đoạn, không cần trả lời cả 6 bằng bullet 1 dòng:
+
 - Tôi học được gì khi nghe top 3 problems của các bạn khác?
-- Nhóm có lúc nào bị solution-first không?
-- Tôi có thay đổi ý kiến sau khi bị challenge không?
-- Tôi đóng góp gì thật sự vào artifact cuối?
-- Điều khó nhất khi viết Problem Statement là gì?
+- Nhóm có lúc nào bị solution-first, đòi làm Agent cho ngầu không?
+- Tôi có thay đổi ý kiến sau khi bị challenge không, vì sao đổi?
+- Tôi đóng góp gì thật sự vào artifact cuối, phần nào có dấu tay của tôi?
+- Điều khó nhất khi viết Problem Statement là gì, metric hay boundary?
 - Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
 
-Reflection:
+Reflection (viết 8-12 câu thành đoạn, có chuyện cụ thể):
 
 ```text
-
+VD: Đầu buổi tôi ham bài Slack Search vì nghe giống Agent. Sau khi bị hỏi về quyền đọc
+private channel thì tôi đổi sang Weekly Report vì bài đó đo được...
 ```
 
 ## Tự kiểm cuối bài
